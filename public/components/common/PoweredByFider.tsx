@@ -9,9 +9,9 @@ interface PoweredByFiderProps {
 }
 
 export const PoweredByFider = (props: PoweredByFiderProps) => {
-  const source = encodeURIComponent(window?.location?.host || "")
-  const medium = "powered-by"
-  const campaign = props.slot
+  //const source = encodeURIComponent(window?.location?.host || "")
+  //const medium = "powered-by"
+  //const campaign = props.slot
 
   const className = classSet({
     "c-powered": true,
