@@ -20,9 +20,8 @@ export const PoweredByFider = (props: PoweredByFiderProps) => {
 
   return (
     <div className={className}>
-      Roadmap for
       <a rel="noopener" href="https://www.freshstore.app" target="_blank">
-        FreshStore Affiliate Stores
+        FreshStore
       </a>
     </div>
   )
